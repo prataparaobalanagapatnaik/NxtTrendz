@@ -1,0 +1,24 @@
+.popup-content {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  text-align: center;
+}
+
+.checkout-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.confirm-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.summary {
+  margin-top: 20px;
+}

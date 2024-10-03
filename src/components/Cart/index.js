@@ -4,7 +4,6 @@ import Header from '../Header'
 import EmptyCartView from '../EmptyCartView'
 import CartListView from '../CartListView'
 import CartSummary from '../CartSummary'
-
 import './index.css'
 
 const Cart = () => (
@@ -34,6 +33,7 @@ const Cart = () => (
                 </button>
                 <CartListView />
                 <CartSummary />
+                <button className="checkout-button">Checkout</button>
               </div>
             )}
           </div>
